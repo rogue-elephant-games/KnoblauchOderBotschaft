@@ -33,7 +33,10 @@ public class Gameplay : MonoBehaviour
             timeText.text = (timeLeft).ToString("0");
         }
         else
-            sceneLoader.LoadGameOverScene();
+            if(score >= 20)
+                sceneLoader.LoadSuccessScene();
+            else
+                sceneLoader.LoadGameOverScene();
 
     }
 
@@ -45,6 +48,7 @@ public class Gameplay : MonoBehaviour
             index = 0; //loop back around
         }
         image.sprite = spritearray[index];
+        image.CrossFadeColor(Color.black, 30 - (score * 1.5f), false, true);
     }
 
     public void CheckAnswer(bool isKnobLauch)
