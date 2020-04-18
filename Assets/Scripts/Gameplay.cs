@@ -7,10 +7,12 @@ using UnityEngine.UI;
 public class Gameplay : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timeText;
+    [SerializeField] TextMeshProUGUI scoreText;
     public Image image; //change this image
     public Sprite[] spritearray;
     public float timeLeft = 20.0f;
     int index = 0;
+    int score = 0;
 
     SceneLoader sceneLoader;
 
@@ -52,7 +54,11 @@ public class Gameplay : MonoBehaviour
             (isKnobLauch && imageIsKnoblauch)
             || (!isKnobLauch && !imageIsKnoblauch)
             )
-            GetNextPhoto();
+            {
+                score += 1;
+                scoreText.text = score.ToString();
+                GetNextPhoto();
+            }
         else
             sceneLoader.LoadGameOverScene();
 
