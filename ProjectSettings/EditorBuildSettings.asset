@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start Game.unity
+    guid: 336b3a8f3d969e14c8f6c2cbb3f45315
+  - enabled: 1
+    path: Assets/Scenes/Knoblauch 1.unity
+    guid: b339e168837c8604dbe71c608d507eb6
+  - enabled: 1
+    path: Assets/Scenes/Success.unity
+    guid: a45e028927968b84ab40ad62b7b1c298
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: d741540cb356633419ffd8a089d45b29
   m_configObjects: {}
