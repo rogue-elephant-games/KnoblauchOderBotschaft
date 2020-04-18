@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Knoblauch 1.unity
     guid: b339e168837c8604dbe71c608d507eb6
   - enabled: 1
+    path: Assets/Scenes/Botschaft 1.unity
+    guid: e1420e3f3a2c27b409af112f94f64795
+  - enabled: 1
     path: Assets/Scenes/Success.unity
     guid: a45e028927968b84ab40ad62b7b1c298
   - enabled: 1

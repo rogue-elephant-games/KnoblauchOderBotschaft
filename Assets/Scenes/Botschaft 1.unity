@@ -728,7 +728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9b751482f79fdca42bd965075c637d17, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74ad82db1f3add04a87406b9172b40ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -829,7 +829,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1568443715}
-        m_MethodName: LoadNextScene
+        m_MethodName: LoadGameOverScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1114,7 +1114,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1568443715}
-        m_MethodName: LoadGameOverScene
+        m_MethodName: LoadSuccessScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
